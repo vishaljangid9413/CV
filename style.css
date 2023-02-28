@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: #40514E;
+}
+
+h1 {
+    margin: 0 auto 0 auto;
+    font-size: 5.625rem;
+    color: #66BFBF;
+    font-weight: 50;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: 50;
+    padding: 20px;
+}
+
+h3 {
+    color: #11999E;
+
+}
+
+
+
+
+.top-container {
+    background-color: #E4F9F5;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    font-family: sans-serif;
+}
+
+span {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 400px;
+    top: 100px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+/* .intro {} */
+
+.skill-row {
+    width: 70%;
+    margin: 50px auto 200px auto;
+    text-align: left;
+    line-height: 30px;
+
+}
+
+ul li {
+    line-height: 50px;
+    /* padding-left: 300px; */
+}
+
+.profile-img {
+    width: 300px;
+}
+
+.education-img {
+    width: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.code-img {
+    width: 300px;
+    float: right;
+    margin-right: 30px;
+
+}
+
+.strength-img {
+    width: 300px;
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto 100px auto;
+    justify-content: center;
+    clear: both;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 50px;
+}
+
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(17, 205, 212, 1), rgba(17, 153, 158, 1));
+}
+
+.btn:hover {
+    background: linear-gradient(rgba(17, 153, 158, 1), rgba(17, 205, 212, 1));
+}
+
+a img {
+    height: 50px;
+    padding: 0 30px;
+    transition: 0.5s;
+
+}
+
+a img:hover {
+
+    height: 52px;
+}
+
+.footer-link {
+    font-size: 30px;
+}
+
+.copyright {
+    color: #EAF6F6;
+}
